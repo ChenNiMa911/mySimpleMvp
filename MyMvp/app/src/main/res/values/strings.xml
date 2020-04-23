@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyMvp</string>
+    <string name="api_error_msg">API访问出错</string>
+</resources>
