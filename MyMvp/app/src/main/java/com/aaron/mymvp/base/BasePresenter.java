@@ -1,4 +1,4 @@
-package com.aaron.mymvp;
+package com.aaron.mymvp.base;
 
 /**
  * Presenter中可共用的代码就是对View引用的方法了，

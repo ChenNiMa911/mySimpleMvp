@@ -2,6 +2,8 @@ package com.aaron.mymvp;
 
 import android.os.Handler;
 
+import com.aaron.mymvp.base.IMvpCallback;
+
 // Model 类中定了具体的网络请求操作。
 // 为模拟真实的网络请求，利用postDelayed方法模拟耗时操作，通过判断请求参数反馈不同的请求状态：
 

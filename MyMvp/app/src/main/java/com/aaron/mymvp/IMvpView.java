@@ -1,5 +1,7 @@
 package com.aaron.mymvp;
 
+import com.aaron.mymvp.base.IBaseView;
+
 // View接口是Activity与Presenter层的中间层，
 // 它的作用是根据具体业务的需要，为Presenter提供调用Activity中具体UI逻辑操作的方法。
 public interface IMvpView extends IBaseView {

@@ -1,4 +1,4 @@
-package com.aaron.mymvp;
+package com.aaron.mymvp.base;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import com.aaron.mymvp.R;
 
 /**
  * BaseActivity主要是负责实现 BaseView 中通用的UI逻辑方法，

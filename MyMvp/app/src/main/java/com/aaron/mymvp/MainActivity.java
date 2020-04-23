@@ -1,12 +1,10 @@
 package com.aaron.mymvp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.aaron.mymvp.base.BaseActivity;
 
 public class MainActivity extends BaseActivity implements IMvpView {
 

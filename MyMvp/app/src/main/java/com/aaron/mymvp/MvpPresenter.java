@@ -5,6 +5,9 @@ package com.aaron.mymvp;
 //Presenter类的构造方法中有一个View接口的参数，
 // 是为了能够通过View接口通知Activity进行更新界面等操作。
 
+import com.aaron.mymvp.base.BasePresenter;
+import com.aaron.mymvp.base.IMvpCallback;
+
 /**
  * 之前是在Presenter的构造方法中得到View接口的引用，
  * 现在我们需要修改Presenter引用View接口的方式让View接口与宿主Activity共存亡
